@@ -1,0 +1,29 @@
+ .txt-color {
+        color: white;
+        background-color: black;
+        height: 50px;
+        width: 100px;
+        text-align: center;
+        direction: unset;
+        text-decoration: underline;
+      }
+      .border-color {
+        border-color: green;
+        border-style: solid;
+        height: 50px;
+        width: 100px;
+        border-radius: 10px;
+        background-repeat: repeat-x;
+        border-image: url("https://interactive-examples.mdn.mozilla.net/media/examples/border-diamonds.png")
+          30;
+      }
+      .ul-list {
+        list-style: georgian;
+        list-style-image: url("https://mdn.mozillademos.org/files/11981/starsolid.gif");
+        list-style-position: inside;
+        margin: 0;
+        padding: 0;
+      }
+      ul {
+        list-style-image: url(" https://www.w3schools.com/cssref/sqpurple.gif");
+      }
